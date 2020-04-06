@@ -28,7 +28,6 @@ class Artist
       found_artist
     else
       new_artist = self.new(name)
-      @@all << self
       new_artist
     end
   end
